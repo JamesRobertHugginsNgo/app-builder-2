@@ -1,0 +1,49 @@
+body {
+	background-color: #165788;
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+
+	&:focus, &:hover {
+		color: #ffffff;
+		text-decoration: underline;
+	}
+}
+
+@media (min-width: 768px) {
+	.container-fluid {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+.cframe-header {
+	.cframe-breadcrumbs {
+		background-color: #e5e5e5;
+		color: #000000;
+
+		a {
+			color: #2d699e;
+
+			&:focus, &:hover {
+				color: #2d699e;
+			}
+		}
+	}
+}
+
+.cframe-main {
+	background-color: #ffffff;
+	color: #000000;
+
+	a {
+		color: #23527c;
+
+		&:focus, &:hover {
+			color: #23527c;
+		}
+	}
+}
